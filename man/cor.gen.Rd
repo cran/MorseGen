@@ -7,22 +7,25 @@ cor.gen
 cor.gen is a function to generate two vectors of N scores drawn from a normal distribution with the user-specified means, standard deviations, and  correlation. The raw data will be written to a text file in the user's working directory.
 }
 \usage{
-cor.gen(num.subj, x.mean, x.sd, y.mean, y.sd, correlation, data.dec = 2)
+cor.gen(num.subj, x.mean, x.sd, y.mean, y.sd, correlation, data.dec = 2, x.name = "Variable X", y.name = "Variable Y")
 }
+%- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{num.subj}{Specifies the intended sample size (n)}
+  \item{num.subj}{Specifies the intended sample size (N)}
   \item{x.mean}{Specifies the intended mean for variable X}
   \item{x.sd}{Specifies the intended standard deviation for variable X}
   \item{y.mean}{Specifies the intended mean for variable Y}
   \item{y.sd}{Specifies the intended standard deviation for variable Y}
   \item{correlation}{Specifies the indended correlation between X & Y}
   \item{data.dec}{Specifies the number of decimal places in the sample data}
+  \item{x.name}{Specifies the name of variable X}
+  \item{y.name}{Specifies the name of variable Y}
 }
 \value{
 The values returned are the raw data which is printed to the R console as well as saved to a text file to be imported to other programs or back into R. The R console will also display performance data including the descriptive statistics.
 }
 \author{
-Brendan J. Morse
+Brendan Morse
 }
 \examples{
 # In a study published in Body Image on the effects 
@@ -37,6 +40,6 @@ Brendan J. Morse
 
 # To generate the data
 
-cor.gen(49, 24.38, 6.22, 5.16, 1.47, -.56) 
+cor.gen(49, 24.38, 6.22, 5.16, 1.47, -.56, data.dec=2, x.name="BMI", y.name="BISS") 
 }
 \keyword{datagen}

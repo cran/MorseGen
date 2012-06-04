@@ -1,9 +1,7 @@
-a9b236fb48abd096b7027882b4b15f4a *DESCRIPTION
+31af03ac947b8689facc857ba8347bce *DESCRIPTION
 8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
-a870fd3c9227dff4cf03cf6043447996 *R/cor.gen.R
-196d0185671dc8246ffabe23c19174c0 *R/stat.gen.R
-a7da274039fb31e0e3e316ac3990d47e *R/survey.gen.R
-aa07c648eae9a6dab9d0d595870418a0 *man/MorseGen-package.Rd
-2a5df7dedc5910f6aba7ad918b7b0ae8 *man/cor.gen.Rd
-b85dbc24911d6da256029703f8c32217 *man/stat.gen.Rd
-b41e59067077cb89672f1ab946379a2a *man/survey.gen.Rd
+59381c78bfdb7ac111a1ec9edf482a28 *R/cor.gen.R
+48e6809e969ebfb9cc9d8c0b338ec152 *R/stat.gen.R
+5ba4e38b5c059f30da2d74bea6da6bb5 *man/MorseGen-package.Rd
+a5855fe8c5367540ac5a0ec567acde1a *man/cor.gen.Rd
+04d8d909e692d078ce9e4fe42fb2ab9f *man/stat.gen.Rd
